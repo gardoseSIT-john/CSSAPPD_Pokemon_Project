@@ -1,0 +1,18 @@
+<section class="region-section johto">
+
+    <h2>JOHTO</h2>
+
+    @for (row of regionData(); track row.name) {
+
+        <app-leader-info
+            [name]="row.name"
+            [age]="row.age"
+            [location]="row.location"
+            [pokemonTeam]="row.pokemonTeam"
+            [gymBadge]="row.gymBadge"
+            [description]="row.description"
+        />
+
+    }
+
+</section>

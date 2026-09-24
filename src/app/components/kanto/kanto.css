@@ -1,0 +1,21 @@
+.kanto {
+    background-color: #f4cccc;
+}
+
+.kanto h2 {
+    color: #cc0000;
+}
+
+.kanto .namePlate {
+    background-color: #cc0000;
+    color: white;
+}
+
+.kanto .levelPlate {
+    background-color: #f6b26b;
+}
+
+.kanto .descriptionPlate {
+    background-color: #e06666;
+    color: white;
+}

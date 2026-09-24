@@ -1,0 +1,21 @@
+.johto {
+    background-color: #d9d2e9;
+}
+
+.johto h2 {
+    color: #674ea7;
+}
+
+.johto .namePlate {
+    background-color: #674ea7;
+    color: white;
+}
+
+.johto .levelPlate {
+    background-color: #b4a7d6;
+}
+
+.johto .descriptionPlate {
+    background-color: #8e7cc3;
+    color: white;
+}

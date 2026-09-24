@@ -1,0 +1,37 @@
+<div class="leader-card">
+
+    <div class="leader-header">
+        <h3>{{ name() }}</h3>
+        <span>Age: {{ age() }}</span>
+    </div>
+
+    <div class="leader-details">
+
+        <p>
+            <strong>Location:</strong>
+            {{ location() }}
+        </p>
+
+        <p>
+            <strong>Pokemon Team:</strong>
+            {{ pokemonTeam() }}
+        </p>
+
+        <p>
+            <strong>Gym Badge:</strong>
+            {{ gymBadge() }}
+        </p>
+
+    </div>
+
+    <button (click)="toggleDescription()">
+        {{ showDescription() ? 'Hide' : 'Monologue / Description / Motto' }}
+    </button>
+
+    @if (showDescription()) {
+        <div class="leader-description">
+            {{ description() }}
+        </div>
+    }
+
+</div>

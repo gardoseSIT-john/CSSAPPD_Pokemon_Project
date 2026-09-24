@@ -1,0 +1,51 @@
+.leader-card {
+    width: 80%;
+    margin: 0 auto 30px auto;
+    padding: 20px;
+    box-sizing: border-box;
+
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 10px;
+
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.leader-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+.leader-header h3 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.leader-details {
+    padding: 10px 0;
+}
+
+.leader-details p {
+    margin: 8px 0;
+}
+
+.leader-card button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.leader-description {
+    margin-top: 15px;
+    padding: 15px;
+
+    background-color: #f2f2f2;
+    border-left: 4px solid #555;
+}
