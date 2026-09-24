@@ -1,0 +1,25 @@
+<section class="region-section hoenn">
+    #Render the trainer cards
+    <h2>HOENN</h2>
+
+    @for(trainer of trainerService.hoennLeaders(); track trainer.name){
+        <div class="trainer-card">
+            <h2>Trainer: {{trainer.name}}</h2>
+            <h3>
+                Town: {{trainer.town}}
+                Specialty: {{trainer.specialty}}
+                Badge: {{trainer.badge}}
+            </h3>
+            <h3>Pokemon Team:</h3>
+            <ul>
+                @for (pokemon of trainer.team; track $index){
+                    <li>
+                        <strong>{{pokemon}}</strong>
+                    </li>
+                }
+            </ul>
+        </div>
+
+    }
+
+</section>
