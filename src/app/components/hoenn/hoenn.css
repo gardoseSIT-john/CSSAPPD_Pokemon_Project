@@ -1,0 +1,36 @@
+.trainer-card table{
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    
+
+    
+}
+
+.trainer-card table{
+    margin-bottom: 10px;
+}
+
+
+.trainer-card table td.trainer_name{
+    width:30%;
+    background-color: #f2f2f2;
+}
+.trainer-card table td.trainer_name h2.nameText{
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.trainer-card table td.trainer_badge{
+    background-color: #ffe3e3;
+}
+
+.trainer-card table tr.trainer_info{
+    background-color: #f2f2f2;
+    align-items: left;
+}
+
+.trainer-card table tr.trainer_info td h3{
+    margin-left: 25px;
+}
