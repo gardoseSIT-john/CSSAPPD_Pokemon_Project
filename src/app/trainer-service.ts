@@ -15,7 +15,9 @@ export class TrainerService {
             town: 'Rustboro City',
             specialty: 'Rock',
             badge: 'Stone Badge',
-            team: ['Geodude','Nosepass']
+            team: ['Geodude','Nosepass'],
+            motto: 'This is a test motto',
+            description: 'THis is a test Description'
 
         },
         {
@@ -23,14 +25,18 @@ export class TrainerService {
             town: 'Dewford Town',
             specialty: 'Fighting',
             badge: 'Knuckle Badge',
-            team: ['Makuhita','Meditite']
+            team: ['Makuhita','Meditite'],
+            motto: 'This is a test motto',
+            description: 'THis is a test Description'
         },
         {
             name: 'Wattson',
             town: 'Mauville City',
             specialty: 'Electric',
             badge: 'Dynamo Badge',
-            team: ['Magnemite','Voltorb']
+            team: ['Magnemite','Voltorb'],
+            motto: 'This is a test motto',
+            description: 'THis is a test Description'
         }
         //Add others layer, this is for test only
     ])
